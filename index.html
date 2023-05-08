@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to GitHub</h1>
+    </header>
+    <main>
+        <h2>List of commands</h2>
+        <ul>
+            <li>git init - Creates a new local repository</li>
+            <li>git add - Indexes the specified file for later commit</li>
+            <li>git commit - Commits indexed changes and saves them to version history</li>
+            <li>git status - Lists all new or changed files that need to be committed</li>
+            <li>git diff - Shows differences by changes made in files not yet indexed </li>
+            <li>git reset - Cancels the indexing of the specified file, while preserving its contents
+                <dd>soft - with tracking</dd>
+                <dd>mixed - without tracking</dd>
+                <dd>hard - deleted</dd>
+            </li>
+
+
+
+
+$ git reset [файл]
+
+Отменяет индексацию указанного файла, при этом сохраняет его содержимое
+
+$ git commit -m "[сообщение с описанием]"
+
+Фиксирует проиндексированные изменения и сохраняет их в историю версий
+        </ul>
+    </main>
+    <footer>
+        <a href="../gallery.html">Gallery</a>
+    </footer>
+</body>
+</html>
